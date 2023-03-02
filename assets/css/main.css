@@ -26,6 +26,7 @@
 
 .header__name{
     color: var(--light-color);
+    text-align: center;
 }
 
 .header__social-icons{
