@@ -4,6 +4,7 @@
     --tertianary-color:#354CCC;
     --quaternary-color:#24348C;
     --quinary-color: #1A2666;
+    --senary-color: #6c81f5;
     --light-color: #ffffff;
     --dark-color: #00000000;
     --grayscale:#555555;
@@ -44,6 +45,46 @@ ion-icon{
 
 .links .row{
     width: 18   0px;
+}
+
+.skills{
+}
+
+.skills__left-column{
+    background: var(--senary-color);
+}
+
+.skills__title{
+    color: var(--secundary-color);
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.skills__label{
+    color: var(--secundary-color);
+    font-size: 0.8rem;
+    transition: all 1s;
+}
+
+.skills__label:hover{
+    background-color: var(--tertianary-color);
+    border-radius: 4px;
+    transition: all 1s;
+    padding-left: 8px;
+    cursor: pointer;
+}
+
+.skills__divider{
+    width: 80%;
+    height: 2px;
+    background: var(--quaternary-color);
+    padding: 0;
+    margin: 0;
+    margin-bottom: var(--medium-size);
+    opacity: 0.5;
+}
+.skills__rigth-column{
+
 }
 
 @media(max-width:400px){
